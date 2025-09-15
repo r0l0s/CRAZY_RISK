@@ -1,0 +1,214 @@
+{
+  "territories": [
+    {
+      "id": 0,
+      "name": "Alaska",
+      "adjacentTerritories": [1, 3, 34]
+    },
+    {
+      "id": 1,
+      "name": "Northwest Territory",
+      "adjacentTerritories": [0, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "name": "Greenland",
+      "adjacentTerritories": [1, 4, 5, 6]
+    },
+    {
+      "id": 3,
+      "name": "Alberta",
+      "adjacentTerritories": [0, 1, 4, 7]
+    },
+    {
+      "id": 4,
+      "name": "Ontario",
+      "adjacentTerritories": [1, 2, 3, 5, 7, 8]
+    },
+    {
+      "id": 5,
+      "name": "Quebec",
+      "adjacentTerritories": [2, 4, 8]
+    },
+    {
+      "id": 6,
+      "name": "Iceland",
+      "adjacentTerritories": [2, 9]
+    },
+    {
+      "id": 7,
+      "name": "Western United States",
+      "adjacentTerritories": [3, 4, 8, 10]
+    },
+    {
+      "id": 8,
+      "name": "Eastern United States",
+      "adjacentTerritories": [4, 5, 7, 10]
+    },
+    {
+      "id": 9,
+      "name": "Great Britain",
+      "adjacentTerritories": [6, 11, 12, 13]
+    },
+    {
+      "id": 10,
+      "name": "Central America",
+      "adjacentTerritories": [7, 8, 14]
+    },
+    {
+      "id": 11,
+      "name": "Western Europe",
+      "adjacentTerritories": [9, 12, 15, 20, 21]
+    },
+    {
+      "id": 12,
+      "name": "Northern Europe",
+      "adjacentTerritories": [9, 11, 13, 21, 22]
+    },
+    {
+      "id": 13,
+      "name": "Scandinavia",
+      "adjacentTerritories": [9, 12, 22, 23]
+    },
+    {
+      "id": 14,
+      "name": "Venezuela",
+      "adjacentTerritories": [10, 15, 16]
+    },
+    {
+      "id": 15,
+      "name": "Brazil",
+      "adjacentTerritories": [11, 14, 16, 17]
+    },
+    {
+      "id": 16,
+      "name": "Peru",
+      "adjacentTerritories": [14, 15, 17]
+    },
+    {
+      "id": 17,
+      "name": "Argentina",
+      "adjacentTerritories": [15, 16]
+    },
+    {
+      "id": 18,
+      "name": "North Africa",
+      "adjacentTerritories": [11, 19, 20, 24, 25]
+    },
+    {
+      "id": 19,
+      "name": "Egypt",
+      "adjacentTerritories": [18, 20, 24, 28]
+    },
+    {
+      "id": 20,
+      "name": "East Africa",
+      "adjacentTerritories": [18, 19, 21, 24, 25]
+    },
+    {
+      "id": 21,
+      "name": "Southern Europe",
+      "adjacentTerritories": [11, 12, 18, 20, 22, 24]
+    },
+    {
+      "id": 22,
+      "name": "Ukraine",
+      "adjacentTerritories": [12, 13, 21, 23, 24, 26]
+    },
+    {
+      "id": 23,
+      "name": "Ural",
+      "adjacentTerritories": [13, 22, 26, 27]
+    },
+    {
+      "id": 24,
+      "name": "Middle East",
+      "adjacentTerritories": [18, 19, 20, 21, 22, 28, 31]
+    },
+    {
+      "id": 25,
+      "name": "Congo",
+      "adjacentTerritories": [18, 20, 26]
+    },
+    {
+      "id": 26,
+      "name": "Siberia",
+      "adjacentTerritories": [22, 23, 25, 27, 29, 30]
+    },
+    {
+      "id": 27,
+      "name": "Yakutsk",
+      "adjacentTerritories": [23, 26, 30, 34, 36]
+    },
+    {
+      "id": 28,
+      "name": "Afghanistan",
+      "adjacentTerritories": [19, 24, 29, 31]
+    },
+    {
+      "id": 29,
+      "name": "China",
+      "adjacentTerritories": [26, 28, 30, 31, 32]
+    },
+    {
+      "id": 30,
+      "name": "Mongolia",
+      "adjacentTerritories": [26, 27, 29, 32, 33, 34]
+    },
+    {
+      "id": 31,
+      "name": "India",
+      "adjacentTerritories": [24, 28, 29, 32]
+    },
+    {
+      "id": 32,
+      "name": "Siam",
+      "adjacentTerritories": [29, 30, 31, 35]
+    },
+    {
+      "id": 33,
+      "name": "Japan",
+      "adjacentTerritories": [30, 34]
+    },
+    {
+      "id": 34,
+      "name": "Kamchatka",
+      "adjacentTerritories": [0, 27, 30, 33, 36]
+    },
+    {
+      "id": 35,
+      "name": "Indonesia",
+      "adjacentTerritories": [32, 38, 39]
+    },
+    {
+      "id": 36,
+      "name": "Irkutsk",
+      "adjacentTerritories": [27, 34, 37]
+    },
+    {
+      "id": 37,
+      "name": "Eastern Australia",
+      "adjacentTerritories": [36, 38, 39]
+    },
+    {
+      "id": 38,
+      "name": "Western Australia",
+      "adjacentTerritories": [35, 37, 39]
+    },
+    {
+      "id": 39,
+      "name": "New Guinea",
+      "adjacentTerritories": [35, 37, 38]
+    },
+    {
+      "id": 40,
+      "name": "Madagascar",
+      "adjacentTerritories": [20, 25]
+    },
+    {
+      "id": 41,
+      "name": "South Africa",
+      "adjacentTerritories": [25, 40]
+    }
+  ]
+}
