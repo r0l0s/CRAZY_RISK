@@ -1,37 +1,52 @@
 
+using BuildData;
+
 public class GameManager
 {
-    public List<Territory>? Territories { get; private set; }
+    // Creating the static array of 42 Territory object spaces
+    public Territory[] GameTerritories { get; private set; } = new Territory[42];
 
-    public void InitializeGame()
+    public void BuildGameMap()
     {
-        var mapData = MapLoader.LoadMap("Assets/Data/Territories.json");
-        Territories = MapLoader.BuildTerritories(mapData);
+        var mapData = TerritoryDeserializer.LoadGameMap("Territories.json");
+        Console.WriteLine("Map file loaded successfully!");
+        // 1 -> Creates 42 Territory objects and stores them in the GameTerritories array
+        // 2 -> Accesses each Territory object in the array and through a linked list, cretes adjacent Territory objects
 
-        Console.WriteLine("Map loaded successfully!");
-        Console.WriteLine($"Total Territories loaded: {Territories.Count}");
+        // Pass 1
+        Console.WriteLine("Building Game objects...");
+        foreach (var data in mapData.territories!)
+        {
+            GameTerritories[data.TerritoryID] = new Territory(data.TerritoryID, data.ContinentID, data.TerritoryName!);
+        }
+
+        // Pass 2
+        foreach (var data in mapData.territories!)
+        {
+            var current = GameTerritories[data.TerritoryID];
+            foreach (int adjacentID in data.AdjacentIDs!)
+            {
+                current.Adjacents.AddBack(GameTerritories[adjacentID]);
+            }
+        }
+
     }
 }
 
-
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         GameManager mainGame = new GameManager();
+        mainGame.BuildGameMap();
 
-        mainGame.InitializeGame();
-
-        var TerritoryList = mainGame.Territories;
-
-        var alaska = TerritoryList!.First(t => t.Id == 0);
-        Console.WriteLine($"{alaska.Name} is adjacent to: ");
-
-        foreach (var neighbor in alaska.Adjacents)
+        foreach (var territory in mainGame.GameTerritories)
         {
-            Console.WriteLine(" - " + neighbor.Name);
+            Console.WriteLine($"{territory.TerritoryName} is adjacent to: ");
+            foreach (var adjacent in territory.Adjacents)
+            {
+                Console.WriteLine(" - " + adjacent.TerritoryName);
+            }
         }
     }
-
-
 }

@@ -1,12 +1,12 @@
-
+using Utils;
 public class Territory
 {
-    public int Id { get; private set; }
-    public string Name { get; private set; }
-
+    public int TerritoryID { get; private set; }
+    public int ContinentID { get; private set; }
+    public string TerritoryName { get; private set; }
 
     // Adjacent Territory objects
-    public List<Territory> Adjacents { get; private set; } = new List<Territory>();
+    public GameLinkedList<Territory> Adjacents { get; private set; } = new GameLinkedList<Territory>();
 
 
     // Game data
@@ -14,9 +14,10 @@ public class Territory
     public Player? Owner { get; set; } = null;
 
 
-    public Territory(int id, string name)
+    public Territory(int territoryID, int continentID, string territoryName)
     {
-        Id = id;
-        Name = name;
+        TerritoryID = territoryID;
+        ContinentID = continentID;
+        TerritoryName = territoryName;
     }
 }
