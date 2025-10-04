@@ -1,4 +1,8 @@
-using Utils;
+
+using CrazyRisk.Shared.Game;
+using CrazyRisk.Shared.Utils;
+namespace CrazyRisk.Shared.Data;
+
 public class Territory
 {
     public int TerritoryID { get; private set; }

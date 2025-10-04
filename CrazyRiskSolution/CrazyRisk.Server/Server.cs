@@ -2,8 +2,9 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using Utils;
-using Actions;
+using CrazyRisk.Shared.Networking;
+using CrazyRisk.Shared.Utils;
+using CrazyRisk.Shared.Actions;
 
 public class GameServer
 {

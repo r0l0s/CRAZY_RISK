@@ -1,0 +1,10 @@
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\bin\Debug\netstandard2.0\CrazyRisk.Shared.deps.json
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\bin\Debug\netstandard2.0\CrazyRisk.Shared.dll
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\bin\Debug\netstandard2.0\CrazyRisk.Shared.pdb
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.csproj.AssemblyReference.cache
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.AssemblyInfoInputs.cache
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.AssemblyInfo.cs
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.dll
+C:\Users\Tony\Dev\Unity_Projects\Proyecto\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\netstandard2.0\CrazyRisk.Shared.pdb

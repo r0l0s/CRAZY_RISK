@@ -1,6 +1,5 @@
-
 using Newtonsoft.Json;
-
+namespace CrazyRisk.Shared.Networking;
 public enum DataCategory
 {
     Control,

@@ -17,9 +17,9 @@
       },
       "CrazyRisk.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.4"
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/CrazyRisk.Shared.dll": {}
@@ -79,11 +79,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
       "projectName": "CrazyRisk.Client",
-      "projectPath": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
+      "projectPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
       "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-      "outputPath": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\obj\\",
+      "outputPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -98,8 +98,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj": {
-              "projectPath": "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj"
+            "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj": {
+              "projectPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj"
             }
           }
         }

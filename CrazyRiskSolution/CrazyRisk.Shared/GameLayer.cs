@@ -1,16 +1,18 @@
 
-using Actions;
-using BuildData;
-
+using CrazyRisk.Shared.Data;
+using CrazyRisk.Shared.Actions;
+namespace CrazyRisk.Shared.Game;
 public class GameManager
 {
     // Creating the static array of 42 Territory object spaces
     public static Territory[] GameTerritories { get; private set; } = new Territory[42];
 
     // Players in the game
-    public static Player[] PlayerList = [new Player(), new Player(), new Player()];
+    public static Player[] PlayerList = [new Player(0), new Player(1), new Player(2)];
 
     public event Action<string>? OnProcessCompletion;
+
+    
 
     public void BuildGameMap()
     {
@@ -37,6 +39,9 @@ public class GameManager
         }
 
         var instruction = new ServerMessage { Message = "Map building completed" };
+
+        foreach (var player in PlayerList)
+            player.OnClaimed += OnProcessCompletion;
 
         OnProcessCompletion?.Invoke(instruction.WrapDataObject());
 

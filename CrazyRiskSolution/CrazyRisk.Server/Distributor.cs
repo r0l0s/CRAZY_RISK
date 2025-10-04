@@ -1,5 +1,5 @@
 
-using Utils;
+namespace CrazyRisk.Shared.Utils;
 
 public class Distributor
 {

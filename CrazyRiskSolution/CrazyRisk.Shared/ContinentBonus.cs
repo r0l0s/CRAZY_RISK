@@ -1,6 +1,7 @@
 
 // This class handles the continent bonus logic
 
+namespace CrazyRisk.Shared.Game;
 class Continent
 {
     public int _currentTerritoryCount = 0;

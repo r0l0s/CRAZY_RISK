@@ -1,4 +1,5 @@
-namespace Actions;
+using CrazyRisk.Shared.Networking;
+namespace CrazyRisk.Shared.Actions;
 
 public class HandShake : BaseDataObject
 {

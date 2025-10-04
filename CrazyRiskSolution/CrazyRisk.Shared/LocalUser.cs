@@ -1,5 +1,7 @@
 
-using Actions;
+using CrazyRisk.Shared.Game;
+using CrazyRisk.Shared.Actions;
+namespace CrazyRisk.Shared.Networking;
 
 public class LocalUser
 {
@@ -56,26 +58,34 @@ public class LocalUser
 
         switch (obj.Category)
         {
-            /* case HandShakeConfirmation confirmation:
-                OnDisplayMessage?.Invoke($"Game Server confirms Alias as: {confirmation.Alias}");
-                OnDisplayMessage?.Invoke($"Game Server gave you the followng player ID: {confirmation.PlayerID}");
-                break; */
 
-            /* case ServerMessage message:
-                OnDisplayMessage?.Invoke($"{message.Message}");
-                break; */
-
-            /* case InitialUpdate instruction:
-                OnDisplayMessage?.Invoke($"ID => {instruction.Player1ID} with ALias => {instruction.player1Alias}");
-                OnDisplayMessage?.Invoke($"ID => {instruction.Player2ID} with ALias => {instruction.player2Alias}");
-                OnDisplayMessage?.Invoke($"ID => {instruction.Player3ID} with ALias => {instruction.player3Alias}");
-
-                break; */
 
             case DataCategory.Claim:
                 HandleClaimAction(obj);
                 break;
 
+
+        }
+    }
+
+    private void HandleControl(IDataObject dataObject)
+    {
+        switch (dataObject)
+        {
+            case HandShakeConfirmation confirmation:
+                    OnDisplayMessage?.Invoke($"Game Server confirms Alias as: {confirmation.Alias}");
+                    OnDisplayMessage?.Invoke($"Game Server gave you the followng player ID: {confirmation.PlayerID}");
+                    break; 
+
+            case ServerMessage message:
+                    OnDisplayMessage?.Invoke($"{message.Message}");
+                    break; 
+
+            case InitialUpdate instruction:
+                    OnDisplayMessage?.Invoke($"ID => {instruction.Player1ID} with ALias => {instruction.player1Alias}");
+                    OnDisplayMessage?.Invoke($"ID => {instruction.Player2ID} with ALias => {instruction.player2Alias}");
+                    OnDisplayMessage?.Invoke($"ID => {instruction.Player3ID} with ALias => {instruction.player3Alias}");
+                    break;
         }
     }
 

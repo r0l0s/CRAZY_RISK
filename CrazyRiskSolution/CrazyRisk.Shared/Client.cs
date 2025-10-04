@@ -1,7 +1,7 @@
-
 using System.Net.Sockets;
 using System.Text;
-using Actions;
+using CrazyRisk.Shared.Actions;
+namespace CrazyRisk.Shared.Networking;
 
 public class Client
 {
@@ -24,7 +24,7 @@ public class Client
 
             Console.WriteLine("Connected to game server.");
             stream = client.GetStream();
-            writer = new StreamWriter(stream, Encoding.UTF8) {AutoFlush = true};
+            writer = new StreamWriter(stream, Encoding.UTF8) { AutoFlush = true };
 
             // Immediate handshake
             var handShake = new HandShake { Alias = alias };

@@ -1,6 +1,10 @@
-
+using CrazyRisk.Shared.Networking;
+using CrazyRisk.Shared.Game;
+using CrazyRisk.Shared.Data;
 public class TestFrontEnd
 {
+    //private LocalUser? user;
+
     public static async Task Main()
     {
         Console.Write("Enter your username; ");
@@ -21,4 +25,3 @@ public class TestFrontEnd
         }
     }
 }
-

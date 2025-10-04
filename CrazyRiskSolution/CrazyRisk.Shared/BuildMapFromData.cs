@@ -1,8 +1,6 @@
-
 using System.Reflection;
-using System.Text.Json;
-
-namespace BuildData;
+using Newtonsoft.Json;
+namespace CrazyRisk.Shared.Data;
 
 // This class reflects the Json class structure
 public class TerritoryData
@@ -29,16 +27,17 @@ public class TerritoryDeserializer
     {
         string jsonString;
         var assembly = Assembly.GetExecutingAssembly();
-        string resourceName = $"CrazyRisk.Client.{fileName}";
+        string resourceName = $"CrazyRisk.Shared.{fileName}";
 
         using Stream? stream = assembly.GetManifestResourceStream(resourceName);
         if (stream == null)
             throw new FileNotFoundException($"Could not find file '{fileName}' as external or embedded resource.");
 
-        using StreamReader reader = new StreamReader(stream);
+        using StreamReader reader = new(stream);
         jsonString = reader.ReadToEnd();
 
-        return JsonSerializer.Deserialize<MapData>(jsonString!)!;
+        return JsonConvert.DeserializeObject<MapData>(jsonString)
+            ?? throw new InvalidOperationException("Failed to deserialize map data.");
     }
     
     

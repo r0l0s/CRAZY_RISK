@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj": {}
+    "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj": {}
   },
   "projects": {
-    "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj": {
+    "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
         "projectName": "CrazyRisk.Client",
-        "projectPath": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
+        "projectPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
         "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-        "outputPath": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\obj\\",
+        "outputPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj": {
-                "projectPath": "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj"
+              "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj": {
+                "projectPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj"
               }
             }
           }
@@ -73,27 +73,27 @@
         }
       }
     },
-    "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj": {
+    "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj",
         "projectName": "CrazyRisk.Shared",
-        "projectPath": "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj",
+        "projectPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\CrazyRisk.Shared.csproj",
         "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-        "outputPath": "E:\\CrazyRiskSolution\\CrazyRisk.Shared\\obj\\",
+        "outputPath": "C:\\Users\\Tony\\Dev\\Unity_Projects\\Proyecto\\CrazyRiskSolution\\CrazyRisk.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "netstandard2.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -110,12 +110,18 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[13.0.4, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -129,12 +135,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

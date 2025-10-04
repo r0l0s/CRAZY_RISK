@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-
-namespace Utils;
+namespace CrazyRisk.Shared.Utils;
 
 public class GameArrayList<T>
 {
