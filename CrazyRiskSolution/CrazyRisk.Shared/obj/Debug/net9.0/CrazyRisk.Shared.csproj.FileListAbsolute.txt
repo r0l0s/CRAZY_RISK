@@ -1,0 +1,12 @@
+E:\CrazyRiskSolution\CrazyRisk.Shared\bin\Debug\net9.0\CrazyRisk.Shared.deps.json
+E:\CrazyRiskSolution\CrazyRisk.Shared\bin\Debug\net9.0\CrazyRisk.Shared.dll
+E:\CrazyRiskSolution\CrazyRisk.Shared\bin\Debug\net9.0\CrazyRisk.Shared.pdb
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.csproj.AssemblyReference.cache
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.AssemblyInfoInputs.cache
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.AssemblyInfo.cs
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.csproj.CoreCompileInputs.cache
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.dll
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\refint\CrazyRisk.Shared.dll
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\CrazyRisk.Shared.pdb
+E:\CrazyRiskSolution\CrazyRisk.Shared\obj\Debug\net9.0\ref\CrazyRisk.Shared.dll

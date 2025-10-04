@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+uyshE5YJ74=",
+  "success": true,
+  "projectFilePath": "E:\\CrazyRiskSolution\\CrazyRisk.Client\\CrazyRisk.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tony\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
